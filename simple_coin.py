@@ -64,7 +64,7 @@ try:
 			global switch
 			switch = False
 		
-		# Метод подсчета статистики
+		# Метод количества подкидываний монетки
 		def flipCount(self):
 			flip.select = input("Сколько раз подкинуть монетку? (можно до 100 раз) \n>>> ")
 			flip.select = int(flip.select)
